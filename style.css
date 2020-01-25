@@ -24,3 +24,14 @@
 	width: 100%;
 	box-shadow: 2rem 2rem 2rem 1rem;
 }
+
+.skills-heading {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.progress {
+	height: 0.5rem;
+}
