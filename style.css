@@ -20,7 +20,7 @@
 }
 
 .info-div {
-	height: 20rem;
+	height: auto;
 	width: 100%;
 	box-shadow: 2rem 2rem 2rem 1rem;
 }
