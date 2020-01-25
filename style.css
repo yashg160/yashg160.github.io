@@ -1,0 +1,26 @@
+.jumbotron {
+	background-image: url('images/index.png');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	height: 80vh;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.avatar {
+	background-color: aquamarine;
+	height: 10rem;
+	width: 10rem;
+	border-radius: 50%;
+}
+
+.info-div {
+	height: 20rem;
+	width: 100%;
+	box-shadow: 2rem 2rem 2rem 1rem;
+}
