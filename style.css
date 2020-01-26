@@ -88,6 +88,13 @@ body {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	margin-top: 0.5rem;
+	font-size: medium;
+}
+
+.skills-heading p {
+	color: rgb(40, 167, 70);
+	font-size: medium;
 }
 
 .skills {
