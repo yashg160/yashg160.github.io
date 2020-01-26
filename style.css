@@ -24,9 +24,16 @@ body {
 	justify-content: center;
 }
 
+.jumbotron-overlay h1 {
+	font-size: 3rem;
+	font-weight: 500;
+}
+
 .intro {
-	font-weight: bold;
+	font-weight: 400;
 	font-size: large;
+	letter-spacing: 0.1rem;
+	text-transform: uppercase;
 }
 
 .avatar {
