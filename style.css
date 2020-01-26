@@ -19,10 +19,17 @@
 	border-radius: 50%;
 }
 
-.info-div {
-	height: auto;
-	width: 100%;
+.apply-shadow {
 	box-shadow: 2rem 2rem 2rem 1rem;
+}
+
+.about {
+	padding: 3rem;
+	border-radius: 1rem;
+}
+
+.heading {
+	margin: 2rem 0rem;
 }
 
 .skills-heading {
@@ -32,8 +39,13 @@
 	justify-content: space-between;
 }
 
+.skills {
+	padding: 3rem;
+	border-radius: 1rem;
+}
+
 .progress {
-	height: 0.5rem;
+	height: 0.3rem;
 }
 
 .text-white {
