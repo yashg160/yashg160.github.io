@@ -14,9 +14,6 @@ nav {
 	background-color: transparent;
 }
 
-.bg-green {
-	background-color: rgb(40, 167, 70);
-}
 .jumbotron-fluid {
 	background-image: url('images/index.png');
 	background-position: center;
@@ -94,6 +91,15 @@ nav {
 	padding: 3rem;
 	border-radius: 1rem;
 	margin-top: 4rem;
+	transform: scale(0);
+}
+
+.animatable {
+	transition: 0.5s;
+}
+
+.triggered {
+	transform: scale(1);
 }
 
 .info-head {
