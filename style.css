@@ -35,3 +35,9 @@
 .progress {
 	height: 0.5rem;
 }
+
+.social-icons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
