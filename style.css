@@ -6,6 +6,17 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+nav {
+	transition: 0.3s;
+}
+
+.transparent {
+	background-color: transparent;
+}
+
+.bg-green {
+	background-color: rgb(40, 167, 70);
+}
 .jumbotron-fluid {
 	background-image: url('images/index.png');
 	background-position: center;

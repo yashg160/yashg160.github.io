@@ -32,10 +32,10 @@
 	</head>
 	<body>
 		<nav
-			class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+			class="navbar navbar-expand-lg navbar-light fixed-top transparent"
 			id="navigation-bar"
 		>
-			<a class="navbar-brand" href="#">Yash Gupta</a>
+			<a class="navbar-brand text-white" href="#">Yash Gupta</a>
 			<button
 				class="navbar-toggler"
 				type="button"
@@ -51,21 +51,25 @@
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
 					<li class="nav-item">
-						<a class="nav-link" href="#about">About</a>
+						<a class="nav-link text-white" href="#about">About</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#skills">Skills</a>
+						<a class="nav-link text-white" href="#skills">Skills</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#projects">Projects</a>
+						<a class="nav-link text-white" href="#projects"
+							>Projects</a
+						>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#education">Education</a>
+						<a class="nav-link text-white" href="#education"
+							>Education</a
+						>
 					</li>
 				</ul>
 			</div>
 		</nav>
-		<div class="jumbotron-fluid">
+		<div class="jumbotron-fluid" id="jumbotron">
 			<div class="jumbotron-overlay">
 				<div class="avatar"></div>
 				<h1 class="text-center">Yash Gupta</h1>
@@ -644,6 +648,25 @@
 		<script>
 			$(document).ready(() => {
 				$('[data-toggle="tooltip"]').tooltip();
+
+				function inViewport($el) {
+					var elH = $el.outerHeight(),
+						H = $(window).height(),
+						r = $el[0].getBoundingClientRect(),
+						t = r.top,
+						b = r.bottom;
+					return Math.max(
+						0,
+						t > 0 ? Math.min(elH, H - t) : Math.min(b, H)
+					);
+				}
+				$(window).on('scroll resize', function() {
+					if (inViewport($('#jumbotron')) < 10) {
+						$('#navigation-bar').addClass('bg-success');
+					} else {
+						$('#navigation-bar').removeClass('bg-success');
+					}
+				});
 			});
 		</script>
 	</body>
