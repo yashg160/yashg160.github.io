@@ -97,10 +97,29 @@
 .education h3 {
 	margin: 2rem 0rem;
 }
+
+.education-row {
+	margin: 1rem 0 2rem 0;
+	padding: 3rem;
+	border-radius: 1rem;
+}
+
+.education-title {
+	margin-bottom: 3rem;
+}
+
+.education-content h6 {
+	color: rgba(153, 153, 153);
+}
+
 @media only screen and (min-width: 768px) {
 	.project-div {
 		margin-top: 1.5rem;
 		margin-bottom: 1.5rem;
 		height: 26rem;
+	}
+
+	.education-title {
+		margin-bottom: 0;
 	}
 }
