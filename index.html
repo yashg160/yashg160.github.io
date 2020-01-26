@@ -43,7 +43,12 @@
 
 		<div class="container container-fluid">
 			<div class="icons-main-div">
-				<div class="circle icon-div">
+				<div
+					class="icon-div"
+					data-toggle="tooltip"
+					data-placement="top"
+					title="Connect on LinkedIn"
+				>
 					<a
 						href="https://www.linkedin.com/in/yash-gupta-575679179/"
 						target="_blank"
@@ -53,7 +58,12 @@
 						></i
 					></a>
 				</div>
-				<div class="icon-div">
+				<div
+					class="icon-div"
+					data-toggle="tooltip"
+					data-placement="top"
+					title="Connect on GitHub"
+				>
 					<a href="https://github.com/yashg160" target="_blank"
 						><i
 							class="fa fa-github fa-2x text-white"
@@ -61,7 +71,12 @@
 						></i
 					></a>
 				</div>
-				<div class="icon-div">
+				<div
+					class="icon-div"
+					data-toggle="tooltip"
+					data-placement="top"
+					title="Connect on Facebook"
+				>
 					<a
 						href="https://www.facebook.com/cool.buddy.98"
 						target="_blank"
@@ -299,7 +314,12 @@
 				<div class="row">
 					<div class="col-md-6 project-div">
 						<!--TODO: Insert screenshot and link of project-->
-						<div class="project-in apply-shadow">
+						<div
+							class="project-in apply-shadow"
+							data-toggle="tooltip"
+							data-placement="top"
+							title="Repository on GitHub"
+						>
 							<img
 								src="images/ReaderHome.png"
 								alt="ReactStock Home Image"
@@ -320,7 +340,12 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 project-div">
+					<div
+						class="col-md-6 project-div"
+						data-toggle="tooltip"
+						data-placement="top"
+						title="Repository on GitHub"
+					>
 						<!--TODO: Insert screenshot and link of project-->
 						<div class="project-in apply-shadow">
 							<img
@@ -345,7 +370,12 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6 project-div apply-shadow">
+					<div
+						class="col-md-6 project-div apply-shadow"
+						data-toggle="tooltip"
+						data-placement="top"
+						title="Repository on GitHub"
+					>
 						<!--TODO: Insert screenshot and link of project-->
 						<div class="project-in">
 							<img
@@ -370,7 +400,12 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 project-div apply-shadow">
+					<div
+						class="col-md-6 project-div apply-shadow"
+						data-toggle="tooltip"
+						data-placement="top"
+						title="Repository on GitHub"
+					>
 						<!--TODO: Insert screenshot and link of project-->
 
 						<div class="project-in">
@@ -462,20 +497,33 @@
 				<a
 					href="https://www.linkedin.com/in/yash-gupta-575679179/"
 					target="_blank"
+					data-toggle="tooltip"
+					data-placement="top"
+					title="Connect on LinkedIn"
 					><i
 						class="fa fa-linkedin fa-2x"
 						style="color: rgb(100, 100, 100); margin: 0rem 0.4rem;"
 						aria-hidden="true"
 					></i
 				></a>
-				<a href="https://github.com/yashg160" target="_blank"
+				<a
+					href="https://github.com/yashg160"
+					target="_blank"
+					data-toggle="tooltip"
+					data-placement="top"
+					title="Connect on GitHub"
 					><i
 						class="fa fa-github fa-2x"
 						style="color: rgb(100, 100, 100);margin: 0rem 0.4rem;"
 						aria-hidden="true"
 					></i
 				></a>
-				<a href="https://www.facebook.com/cool.buddy.98" target="_blank"
+				<a
+					href="https://www.facebook.com/cool.buddy.98"
+					target="_blank"
+					data-toggle="tooltip"
+					data-placement="top"
+					title="Connect on Facebook"
 					><i
 						class="fa fa-facebook-f fa-2x"
 						style="color: rgb(100, 100, 100);margin: 0rem 0.4rem;"
@@ -511,5 +559,10 @@
 			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 			crossorigin="anonymous"
 		></script>
+		<script>
+			$(document).ready(() => {
+				$('[data-toggle="tooltip"]').tooltip();
+			});
+		</script>
 	</body>
 </html>
