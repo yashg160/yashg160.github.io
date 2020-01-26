@@ -20,16 +20,17 @@
 }
 
 .apply-shadow {
-	box-shadow: 2rem 2rem 2rem 1rem;
+	box-shadow: 0rem 0rem 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .about {
 	padding: 3rem;
 	border-radius: 1rem;
+	margin-top: 4rem;
 }
 
 .heading {
-	margin: 2rem 0rem;
+	margin: 4rem 0rem;
 }
 
 .skills-heading {
@@ -63,7 +64,7 @@
 }
 
 .projects h3 {
-	margin: 2rem 0rem;
+	margin: 4rem 0rem;
 }
 
 .project-div {
