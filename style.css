@@ -1,3 +1,7 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
 .jumbotron-fluid {
 	background-image: url('images/index.png');
 	background-position: center;
@@ -6,6 +10,7 @@
 	color: white;
 	height: 80vh;
 	width: auto;
+	font-family: 'Montserrat' sans-serif;
 }
 
 .jumbotron-overlay {
