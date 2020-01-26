@@ -1,4 +1,4 @@
-.jumbotron {
+.jumbotron-fluid {
 	background-image: url('images/index.png');
 	background-position: center;
 	background-size: cover;
@@ -6,10 +6,22 @@
 	color: white;
 	height: 80vh;
 	width: auto;
+}
+
+.jumbotron-overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.3);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+
+.intro {
+	font-weight: bold;
+	font-size: large;
 }
 
 .avatar {
