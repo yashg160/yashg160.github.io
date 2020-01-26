@@ -46,9 +46,14 @@
 	align-items: center;
 }
 
-.project-div:hover {
-	-webkit-transform: scale(1);
-	transform: scale(1);
+.projects {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.projects h3 {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .project-div {
