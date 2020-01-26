@@ -37,6 +37,25 @@ body {
 	margin-bottom: 2rem;
 }
 
+.icons-main-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem 0rem 0rem 0rem;
+}
+
+.icon-div {
+	height: 3rem;
+	width: 3rem;
+	border-radius: 50%;
+	background-color: rgb(100, 100, 100);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0rem 0.2rem;
+}
+
 .apply-shadow {
 	box-shadow: 0rem 0rem 2rem 1rem rgba(0, 0, 0, 0.1);
 }
