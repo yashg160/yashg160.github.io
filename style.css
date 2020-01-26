@@ -29,6 +29,19 @@
 	margin-top: 4rem;
 }
 
+.info-head {
+	margin: 2rem 0rem;
+}
+
+.info-cat {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.info-cat-content {
+	font-size: 1.1rem;
+}
+
 .heading {
 	margin: 4rem 0rem;
 }
