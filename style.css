@@ -51,11 +51,15 @@ nav {
 }
 
 .avatar {
-	background-color: aquamarine;
+	background-color: transparent;
 	height: 10rem;
 	width: 10rem;
 	border-radius: 50%;
 	margin-bottom: 2rem;
+}
+
+.avatar img {
+	border-radius: 50%;
 }
 
 .icons-main-div {
