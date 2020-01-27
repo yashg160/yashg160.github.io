@@ -6,6 +6,6 @@
 
 :boom::boom::boom::boom::boom::boom::boom::boom::boom::boom::boom::boom::boom::boom::boom::boom:
 
-## https//yashg160.github.io
+## [https//yashg160.github.io](https://yashg160.github.io)
 
 :boom::boom::boom::boom::boom::boom::boom::boom::boom::boom::boom::boom::boom::boom::boom::boom:
