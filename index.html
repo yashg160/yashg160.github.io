@@ -126,7 +126,7 @@
 					></a>
 				</div>
 			</div>
-			<div class="about apply-shadow animatable" id="about">
+			<div class="about apply-shadow" id="about">
 				<div class="row">
 					<div class="col-md-6">
 						<h4 class="info-head">About</h4>
@@ -661,24 +661,11 @@
 					);
 				}
 
-				var position = $(window).scrollTop();
-				$(window).scroll(function() {
-					console.log(position);
-					var scroll = $(window).scrollTop();
-					if (scroll > position) {
-						if (inViewport($('.animatable')) > 10)
-							$('.animatable').addClass('triggered');
-					} else if (position < 10) $('.animatable').removeClass('triggered');
-					position = scroll;
-				});
-
 				$(window).on('scroll resize', function() {
 					if (inViewport($('#jumbotron')) < 10) {
 						$('#navigation-bar').addClass('bg-success');
 					} else {
 						$('#navigation-bar').removeClass('bg-success');
-					}
-					if (inViewport($('.animatable')) > 10) {
 					}
 				});
 			});

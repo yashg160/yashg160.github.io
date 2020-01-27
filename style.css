@@ -91,11 +91,6 @@ nav {
 	padding: 3rem;
 	border-radius: 1rem;
 	margin-top: 4rem;
-	transform: scale(0);
-}
-
-.animatable {
-	transition: 0.5s;
 }
 
 .triggered {
