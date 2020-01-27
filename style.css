@@ -39,13 +39,15 @@ nav {
 .jumbotron-overlay h1 {
 	font-size: 3rem;
 	font-weight: 500;
+	text-shadow: 0 0 1rem rgba(255, 255, 255, 0.2);
 }
 
 .intro {
 	font-weight: 400;
-	font-size: large;
-	letter-spacing: 0.1rem;
+	font-size: 1.2rem;
+	letter-spacing: 0.2rem;
 	text-transform: uppercase;
+	text-shadow: 0 0 1rem rgba(255, 255, 255, 0.9);
 }
 
 .avatar {
