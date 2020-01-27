@@ -207,7 +207,7 @@ nav {
 }
 
 .education-title {
-	margin: 4rem 0rem;
+	margin: 2rem 0rem;
 }
 
 .education-content h6 {
@@ -226,5 +226,8 @@ nav {
 		border-radius: 1rem;
 		padding: 2rem;
 		width: 100%;
+	}
+	.education-title {
+		margin: 3rem 0rem;
 	}
 }
