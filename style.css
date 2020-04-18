@@ -138,6 +138,10 @@ nav {
 	font-size: medium;
 }
 
+.skill {
+	font-weight: 700;
+}
+
 .skills {
 	padding: 3rem;
 	border-radius: 1rem;
