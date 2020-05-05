@@ -16,11 +16,12 @@ nav {
 
 .jumbotron-fluid {
 	background-image: url('images/index.png');
+	image-rendering: optimizeSpeed;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
 	color: white;
-	height: 80vh;
+	height: auto;
 	width: auto;
 	font-family: 'Montserrat' sans-serif;
 }
@@ -34,6 +35,7 @@ nav {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding: 4rem 0;
 }
 
 .jumbotron-overlay h1 {
