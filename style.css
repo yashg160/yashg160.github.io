@@ -3,7 +3,17 @@ html {
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
+}
+
+a {
+	color: rgb(0, 117, 20);
+	text-decoration: none;
+	transition: all 0.4s;
+}
+
+a:hover {
+	color: rgb(40, 167, 70);
 }
 
 nav {
@@ -15,7 +25,7 @@ nav {
 }
 
 .jumbotron-fluid {
-	background-image: url('images/index.png');
+	background-image: url("images/index.png");
 	image-rendering: optimizeSpeed;
 	background-position: center;
 	background-size: cover;
@@ -23,7 +33,7 @@ nav {
 	color: white;
 	height: auto;
 	width: auto;
-	font-family: 'Montserrat' sans-serif;
+	font-family: "Montserrat" sans-serif;
 }
 
 .jumbotron-overlay {
